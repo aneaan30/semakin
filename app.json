@@ -37,11 +37,7 @@
       "description": "Prefix for Assistant Commands.",
       "value": ".",
       "required": true
-    },
-    "MONGO_DB_URI": {
-      "description": "Mongo DB URL",
-      "value": "",
-      "required": true
+    
     },
     "MUSIC_BOT_NAME": {
       "description": "A name for your Music Bot.",
@@ -68,30 +64,11 @@
       "value": "",
       "required": false
     },
-    "STRING_SESSION1": {
+    "STRING_SESSION": {
       "description": "A Pyrogram String Session. One Assistant is Compulsory.",
       "value": "",
       "required": true
-    },
-    "STRING_SESSION2": {
-      "description": "A Pyrogram String Session. Leave blank if you dont want Multi-Assistant",
-      "value": "",
-      "required": false
-    },
-    "STRING_SESSION3": {
-      "description": "A Pyrogram String Session. Leave blank if you dont want Multi-Assistant",
-      "value": "",
-      "required": false
-    },
-    "STRING_SESSION4": {
-      "description": "A Pyrogram String Session. Leave blank if you dont want Multi-Assistant",
-      "value": "",
-      "required": false
-    },
-    "STRING_SESSION5": {
-      "description": "A Pyrogram String Session. Leave blank if you dont want Multi-Assistant",
-      "value": "",
-      "required": false
+
     },
     "HEROKU_API_KEY": {
       "description": "Your Heroku account's API key",
@@ -120,7 +97,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/NotReallyShikhar/YukkiMusicBot",
+      "value": "https://github.com/aneaan30/semakin",
       "required": true
     },
     "UPSTREAM_BRANCH": {
@@ -137,7 +114,7 @@
             "url": "heroku/nodejs"
         },
         {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+            "url": "https://github.com/aneaan30/heroku-buildpack-ffmpeg-latest.git"
         }
     ],
     "formation": {
